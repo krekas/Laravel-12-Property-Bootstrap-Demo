@@ -54,7 +54,7 @@
             >
               <li class="active"><a href="index.html">Home</a></li>
               <li class="has-children">
-                <a href="properties.html">Properties</a>
+                <a href="{{ route('properties') }}">Properties</a>
                 <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
